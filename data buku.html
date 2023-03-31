@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Perpustakaan</title>
+    <script src="jss/validasi data buku.js"></script>
+	<link rel="stylesheet" href="css/perpustakaan.css">
+  </head>
+  <body>
+    <h1>Masukkan Data Buku yang Dipinjam!</h1>
+    <form method="post" action="" onsubmit="return cekform()">
+      <label for="nama buku">Nama Buku:</label>
+      <input type="text" id="nama buku" name="nama Buku"><br><br>
+      <label for="id buku">ID Buku:</label>
+      <input type="text" id="id buku" name="id buku"><br><br>
+      <label for="jenis buku">Jenis Buku:</label>
+	  <input type="radio" id="jbuku" name="jbuku" value="fiski">fiski &nbsp;&nbsp;
+      <input type="radio" id="jbuku" name="jbuku" value="nonfiksi">nonfiksi &nbsp;&nbsp;
+    
+      </select><br><br>
+      <input type="submit" value="simpan">
+    </form>
+  </body>
+</html>

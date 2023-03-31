@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Perpustakaan</title>
+    <script src="jss/validasi.js"></script>
+	<link rel="stylesheet" href="css/perpustakaan.css">
+  </head>
+  <body>
+    <h1>Silahkan Masukkan nama Antum!</h1>
+    <form method="post" action="" name="dataanggota" onsubmit="return cekform()">
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama"><br><br>
+      <label for="id">ID Anggota:</label>
+      <input type="text" id="id" name="id"><br><br>
+      <label for="jenis_kelamin">Jenis Kelamin:</label>
+	  <input type="radio" id="jkel" name="jkel" value="p">pria &nbsp;&nbsp;
+      <input type="radio" id="jkel" name="jkel" value="W">Wanita &nbsp;&nbsp;
+      </select><br><br>
+      <label for="alamat">Alamat:</label>
+      <textarea id="alamat" name="alamat"></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
